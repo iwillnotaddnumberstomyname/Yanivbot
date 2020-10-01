@@ -1,7 +1,7 @@
 import tweepy
 
-auth = tweepy.OAuthHandler("Q8ay5ZNICw95Y5HfGmLJcGRDg", "x04pKVGbkkgc0FFdS6cNteCo04SVXILqmTrWvCaIWgTuJEyrVj")
-auth.set_access_token("1248396218088198144-skkYmsE49E1PtgCnUfBG8oezRDPzZq", "CJ6xTHVQCnNOURQiyqTnELaT6HWRUWADwTI6ZDeMWSbRL")
+auth = tweepy.OAuthHandler("","")
+auth.set_access_token("", "")
 api = tweepy.API(auth)
 yaniv = "@trustednerd"
 lastid = None
